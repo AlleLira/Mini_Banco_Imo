@@ -11,7 +11,7 @@ if not jogadores.data:
     st.warning("Nenhum jogador encontrado.")
     st.stop()
 
-base_url = "base_url = st.secrets["BASE_URL"] + "/Jogador?token=""
+base_url = st.secrets["BASE_URL"] + "/Jogador?token="
 
 for j in jogadores.data:
 
